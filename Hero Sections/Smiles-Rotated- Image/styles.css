@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  padding: 20px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#nav-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 7px 10px;
+  background-color: white;
+}
+#nav-menu-btn h4 {
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-weight: 400;
+}
+#nav-menu-btn button {
+  font-size: 14px;
+  border: 1px solid black;
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+#menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu-btn button {
+  border-radius: 50px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+#menu-btn #primary {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+}
+#hero-title {
+  width: 100%;
+  font-size: 150px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-images img {
+  width: 300px;
+  height: 450px;
+  background-color: aqua;
+  position: absolute;
+  object-position: top;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#img1 {
+  transform: translate(-50%, -50%) rotate(0deg);
+  background-color: salmon;
+  z-index: 100;
+}
+#img2 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+  background-color: red;
+}
+#img3 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+  background-color: red;
+}
+#img4 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+  background-color: red;
+}
+.bottom-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  left: 3%;
+}
+.bottom-bar h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-right: 60px;
+}
+.bottom-bar button {
+  border-radius: 50px;
+  border: 0.5px solid black;
+  padding: 24px 24px;
+  background-color: #fff;
+}
